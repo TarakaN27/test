@@ -1,0 +1,20 @@
+body {
+	font-size: 16px;
+    color: #594e81;
+}
+
+
+
+table {
+	width:800px;
+	border-collapse: collapse;
+}
+thead {
+    border-bottom: 2px solid #8572cf;
+}
+td {
+	width:50%;
+}
+tr:nth-child(even) {
+	background-color:#e5e6ff;
+}

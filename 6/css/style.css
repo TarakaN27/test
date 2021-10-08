@@ -1,0 +1,16 @@
+.blocks {
+	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.blocks .block-item {
+	display:none;
+	background-color: #000;
+    width: 23%;
+    height: 150px;
+    margin: 10px;
+}
+.block-item.show {
+	display:block;
+}

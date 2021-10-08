@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Задание №4,5</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<a href="#" class="btn-popup-open" onclick="PopupOpen('zayavka')">Открыть</a>
+	
+	<div class="popup__bg">
+		<div id="zayavka" class="popup">
+			<a href="#" onclick="PopupClose('zayavka')" class="close-popup"></a>
+			<form id="zayavka-form" action="#" method="post">
+				<div class="input-group">
+					<label for="name">Ваше имя:<span class="required">*</span></label>
+					<input id="name" type="text" name="name" placeholder="Андрей Иванов" ></input>
+					<span id="name_error" class="error"></span>
+				</div>
+				<div class="input-group">
+					<label for="phone">Ваш телефон:<span class="required">*</span></label>
+					<input id="phone" type="tel" name="phone" pattern="375[0-9]{9}" placeholder="375(XX)XXX-XX-XX" ></input>
+					<span id="phone_error" class="error"></span>
+				</div>
+				<div class="input-group">
+					<label for="email">Ваше email:<span class="required">*</span></label>
+					<input id="email" type="email" name="email" placeholder="example@mail.ru" ></input>
+					<span id="email_error" class="error"></span>
+				</div>
+				<div class="input-group">
+					<input id="checkbox" type="checkbox" name="checkbox">
+					<label for="checkbox" class="checkbox"><span class="check"></span>Я соглашаюсь с <span class="underline">правилами использования сервиса</span>, а также с передачей и обработкой моих данных<span class="required">*</span></label>
+					<span id="checkbox_error" class="error"></span>
+				</div>
+				<div class="input-group">
+					<input id="submit" type="submit" value="Отправить"></input>
+				</div>
+				<div class="input-group message"></div>
+			</form>
+		</div>
+	</div>
+	
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

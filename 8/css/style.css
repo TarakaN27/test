@@ -1,0 +1,24 @@
+body {
+	font-size: 16px;
+    color: #594e81;
+}
+.block {
+	width: 600px;
+}
+.item {
+    padding: 10px 0px;
+}
+.body_block {
+	display:none;
+	padding: 5px;
+}
+.link {
+	cursor:pointer;
+	padding: 5px;
+    border-radius: 6px;
+    text-decoration: unset;
+    color: #000;
+}
+.show {
+	display:block;
+}
