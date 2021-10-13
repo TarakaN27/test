@@ -11,15 +11,7 @@
 <div class="dropdown">
 	<input type="text" class="dropbtn" placeholder="Введите текст..." id="myInput" onkeyup="filterFunction()">
   <div id="myDropdown" class="dropdown-content">
-	<div class="dropdown-list-items">
-		<!--<a class="list-item">About</a>
-		<a class="list-item">Base</a>
-		<a class="list-item">Blog</a>
-		<a class="list-item">Contact</a>
-		<a class="list-item">Custom</a>
-		<a class="list-item">Support</a>
-		<a class="list-item">Tools</a>-->
-	</div>
+	<div class="dropdown-list-items"></div>
   </div>
 </div>
 
