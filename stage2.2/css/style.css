@@ -6,8 +6,6 @@
 	border: 1px solid #ddd;
 }
 
-.dropbtn:focus {outline: 3px solid #ddd;}
-
 .dropdown {
 	position: absolute;
 	width: 300px;
@@ -30,24 +28,31 @@
     text-overflow: ellipsis;
 }
 
-.dropdown span:hover {background-color: #ddd;}
+.dropdown span:hover {
+	background-color: #ddd;
+}
 
-.show {display: block;}
+.show {
+	display: block;
+	position: absolute;
+}
 
 .scroll {
 	max-height: 212px;
 	overflow: hidden scroll;
 }
 
-.show[data-position='right'] {
-	position: absolute;
-    right: -300px;
-    top: inherit;
+.input-group {
+    display: flex;
+    align-items: center;
 }
-
-.show[data-position=top] {
-	position: absolute;
-    top: -212px;
+i.fa {
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-left: none;
+	cursor: pointer;
+	transition:300ms;
 }
-
-
+i.fa:hover {
+	background-color: #f6f6f6;
+}
